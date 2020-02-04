@@ -1,0 +1,23 @@
+{
+    "test1": {
+        "input": ["eat", "tea", "tan", "ate", "nat", "bat"],
+        "output": [
+            ["ate","eat","tea"],
+            ["nat","tan"],
+            ["bat"]
+        ]
+    },
+    "test2": {
+        "input": [],
+        "output": []
+    },
+    "test3": {
+        "input": ["xpn", "xxpn", "onx", "pnx", "npx", "xon", "lip"],
+        "output": [
+            ["xpn","pnx","npx"],
+            ["xon","onx"],
+            ["xxpn"],
+            ["lip"]
+        ]
+    }
+}
